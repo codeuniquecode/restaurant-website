@@ -1,0 +1,32 @@
+/* navigation bar */
+*{
+    font-family: "Sedan", serif;
+}
+.nav-item{
+    margin-left: 2rem;
+}
+/* .custom-page{
+    margin-bottom: 50px !important;
+} */
+@media screen and (max-width: 768px){
+    .nav-item{
+        margin-left: 0;
+    }
+    
+}
+.custom-img{
+    width: 50px;
+    height: 50px;
+    min-height: 40px;
+    min-width: 40px;
+}
+.card>img{
+    max-height: 20rem;
+}
+.card-body>p, .custom-text{
+    text-align: justify;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Adjust the height as needed */
+}
