@@ -44,25 +44,22 @@ html{
     background-color: #f8f9fa;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 200px;
-}
-
-.review-text {
-    font-size: 16px;
-    text-align: justify;
-}
-
-.review-author {
-    font-weight: bold;
-    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .review-image {
+    width: 100%;
     border-radius: 50%;
-    /* width: 80px;
-    height: 80px; */
-    object-fit: cover;
+}
+
+.review-text {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.review-author {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 .contact-form {
     background-color: #fff;
@@ -75,4 +72,25 @@ html{
 }
 .navbar{
     font-weight: bolder;
+}
+@media screen and (max-width: 480px) {
+    /* Your CSS code for mobile screens goes here */
+    #home{
+        height: 100vh;
+    }
+    .custom-page{
+        margin-top: 10px;
+    }
+    .custom-chickenpic{
+        margin-top: -15px;
+    }
+    #review{
+        height: 100vh;
+    }
+    .custom-page>button{
+        margin-top: 4px;
+    }
+   .container-fluid footer{
+    font-size: medium !important;
+   }
 }
