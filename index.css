@@ -30,3 +30,49 @@
     object-fit: cover;
     height: 200px; /* Adjust the height as needed */
 }
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.review-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 200px;
+}
+
+.review-text {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.review-author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.review-image {
+    border-radius: 50%;
+    /* width: 80px;
+    height: 80px; */
+    object-fit: cover;
+}
+.contact-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ a{
+    text-decoration:none;
+}
+.navbar{
+    font-weight: bolder;
+}
